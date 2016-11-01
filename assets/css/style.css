@@ -9,7 +9,7 @@
 	padding: 0;
 	position: fixed;
 	width: 100%;
-	border-bottom: 2px solid rgb(174,163,170);
+	border-bottom: 3px solid rgb(174,163,170);
 	font-family: Georgia;
  }
 
@@ -37,6 +37,9 @@
 
 #linksID {
 	float: right;
+	padding-top: 50px;
+	padding-right: 50px;
+
 }
 
 ul {
@@ -86,12 +89,12 @@ hr {
 }
 
 h3 {
-	border-bottom: 2px solid rgb(174,163,170)
+	border-bottom: 3px solid rgb(174,163,170)
 }
 
 #aboutMeHeader {
 	position: relative;
-    border-bottom: 2px solid rgb(174,163,170);
+    border-bottom: 3px solid rgb(174,163,170);
     color: rgb(64,170,165);
     font-size: 40px;
     top: 15px;
@@ -111,8 +114,8 @@ h3 {
 	padding-right: 10px;
 	background-color: white;
 	box-sizing: border-box;
-	height: 500px;
-	width: 50%;
+	height: 400px;
+	width: 60%;
 	float: left;
 }
 
@@ -126,12 +129,13 @@ p {
 }
 
 #contactHeader {
+	position: relative;
+	top: 5px;
 	color: rgb(64,170,165);
-	border-bottom: 2px solid rgb(174,163,170);
+	border-bottom: 3px solid rgb(174,163,170);
 	font-size: 30px;
 	padding-bottom: 10px;
 	margin-bottom: 10px;
-
 }
 
 .Aboutandconnect {
@@ -151,27 +155,166 @@ input {
 	padding-right: 10px;
 	padding-left: 20px;
 	padding-top: 10px;
-	height: 295px;
+	height: 325px;
 	width: 750px;
 	color: rgb(167,149,143);
 	border: none;
 	font-family: Georgia;
 	line-height: 20px;
 	clear: both;
+	width: 60%;
 }
 
 #submitButton {
 	position: relative;
 	top: 10px;
 	background-color: rgb(64,170,165);
-	font-family: Georgia
-	height: 125px;
+	font-family: Georgia;
+	font-size: 15px;
+	height: 25px;
 	width: 125px;
 	border: none;
 	color: white;
+	padding-top: 5px;
 }
 
-/* adding reset.css finaly got rid of all the stylings on the submit button */
+#portfolio {
+	background-color: white;
+	box-sizing: border-box;
+	position: relative;
+	left: 60px;
+	top: 230px;
+	bottom: 50px;
+	padding-left: 20px;
+	padding-top: 10px;
+	height: 1800px;
+	width: 60%;
+}
+
+#portfolioHeader {
+	position: relative;
+    border-bottom: 3px solid rgb(174,163,170);
+    color: rgb(64,170,165);
+    font-size: 40px;
+    top: 5px;
+    padding-left: 20px;
+}
+
+#boatSection {
+	position: relative;
+}
+
+#boatPic {
+	padding-top: 40px;
+}
+
+#boatsText {
+	position: absolute; 
+	top: 265px; 
+	left: 0;
+	width: 300px;
+	background-color: rgb(64,170,165);
+	padding-top: 15px;
+    margin-top: 0px;
+    padding-bottom: 20px;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    line-height: 10px;
+}
+
+
+#leavesSection {
+	position: relative;
+}
+
+#leavesPic {
+	padding-top: 40px;
+}
+
+#leavesText {
+	position: absolute; 
+	top: 265px; 
+	left: 0;
+	width: 300px;
+	background-color: rgb(64,170,165);
+	padding-top: 15px;
+    margin-top: 0px;
+    padding-bottom: 20px;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    line-height: 10px;
+}
+
+#flowersSection {
+	position: relative;
+}
+
+#flowersPic {
+	padding-top: 40px;
+}
+
+#flowersText {
+	position: absolute; 
+	top: 265px; 
+	left: 0;
+	width: 300px;
+	background-color: rgb(64,170,165);
+	padding-top: 15px;
+    margin-top: 0px;
+    padding-bottom: 20px;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    line-height: 10px;
+}
+
+#snowSection {
+	position: relative;
+}
+
+#snowPic {
+	padding-top: 40px;
+}
+
+#snowText {
+	position: absolute; 
+	top: 265px; 
+	left: 0;
+	width: 300px;
+	background-color: rgb(64,170,165);
+	padding-top: 15px;
+    margin-top: 0px;
+    padding-bottom: 20px;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    line-height: 10px;
+}
+
+#waterfallSection {
+	position: relative;
+}
+
+#waterfallPic {
+	padding-top: 40px;
+}
+
+#waterfallText {
+	position: absolute; 
+	top: 265px; 
+	left: 0;
+	width: 300px;
+	background-color: rgb(64,170,165);
+	padding-top: 15px;
+    margin-top: 0px;
+    padding-bottom: 20px;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    line-height: 10px;
+}
 
 footer {
 	background-color: rgb(102,102,102);
@@ -179,9 +322,11 @@ footer {
 	height: 25px;
 	text-align: center;
 	line-height: 25px;
-	padding: 20px 20px 20px 20px;
+	padding: 20px 20px 50px 20px;
 	clear: both;
-	border-top: 3px solid rgb(64,170,165);
+	border-top: 5px solid rgb(64,170,165);
+	color: white;
+	font-size: 10px;
 }
 /* I can't get the footer to be fixed Once I put the position as fixed, it disappears from the page.
 reset.css messged up the footer styles */ 
