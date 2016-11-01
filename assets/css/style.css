@@ -31,9 +31,12 @@
 .headerlinks {
 	padding: 20px;
 	position: fixed;
-	left: 900px;
-	top: 40px;
+	float: right;
 	font-size: 20px
+}
+
+#linksID {
+	float: right;
 }
 
 ul {
@@ -53,9 +56,9 @@ li {
  }
 
  #connect {
- 	position: relative;
+ 	position: fixed;
  	left: 850px;
-	width: 225px;
+	width: 20%;
 	padding: 20px;
 	background: white;
 	margin-right: 200px;
@@ -71,7 +74,7 @@ li {
 
 .connentLinks {
 	padding-right: 15px;
-	margin: 10px;
+	margin: 5px;
 }
 
 #linksConnect {
@@ -109,7 +112,8 @@ h3 {
 	background-color: white;
 	box-sizing: border-box;
 	height: 500px;
-	width: 750px;
+	width: 50%;
+	float: left;
 }
 
 p {
@@ -126,7 +130,16 @@ p {
 	border-bottom: 2px solid rgb(174,163,170);
 	font-size: 30px;
 	padding-bottom: 10px;
+	margin-bottom: 10px;
 
+}
+
+.Aboutandconnect {
+	clear: both;
+}
+
+input {
+	 padding-bottom: 10px;
 }
 
 #contactForm {
@@ -143,8 +156,9 @@ p {
 	color: rgb(167,149,143);
 	border: none;
 	font-family: Georgia;
-
-
+	line-height: 20px;
+	clear: both;
+}
 
 #submitButton {
 	position: relative;
@@ -160,10 +174,11 @@ p {
 /* adding reset.css finaly got rid of all the stylings on the submit button */
 
 footer {
+	background-color: rgb(102,102,102);
+	box-sizing: border-box;
 	height: 25px;
 	text-align: center;
 	line-height: 25px;
-	background: rgb(102,102,102);
 	padding: 20px 20px 20px 20px;
 	clear: both;
 	border-top: 3px solid rgb(64,170,165);
