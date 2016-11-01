@@ -11,6 +11,7 @@
 	width: 100%;
 	border-bottom: 3px solid rgb(174,163,170);
 	font-family: Georgia;
+	z-index: 1;
  }
 
 .myName {
@@ -187,7 +188,7 @@ input {
 	bottom: 50px;
 	padding-left: 20px;
 	padding-top: 10px;
-	height: 1800px;
+	height: 1100px;
 	width: 60%;
 }
 
@@ -200,62 +201,15 @@ input {
     padding-left: 20px;
 }
 
-#boatSection {
+.leftSection {
 	position: relative;
 }
 
-#boatPic {
+.leftPic {
 	padding-top: 40px;
 }
 
-#boatsText {
-	position: absolute; 
-	top: 265px; 
-	left: 0;
-	width: 300px;
-	background-color: rgb(64,170,165);
-	padding-top: 15px;
-    margin-top: 0px;
-    padding-bottom: 20px;
-    text-align: center;
-    color: white;
-    font-size: 25px;
-    line-height: 10px;
-}
-
-
-#leavesSection {
-	position: relative;
-}
-
-#leavesPic {
-	padding-top: 40px;
-}
-
-#leavesText {
-	position: absolute; 
-	top: 265px; 
-	left: 0;
-	width: 300px;
-	background-color: rgb(64,170,165);
-	padding-top: 15px;
-    margin-top: 0px;
-    padding-bottom: 20px;
-    text-align: center;
-    color: white;
-    font-size: 25px;
-    line-height: 10px;
-}
-
-#flowersSection {
-	position: relative;
-}
-
-#flowersPic {
-	padding-top: 40px;
-}
-
-#flowersText {
+.leftText {
 	position: absolute; 
 	top: 265px; 
 	left: 0;
@@ -272,6 +226,9 @@ input {
 
 #snowSection {
 	position: relative;
+	float: right;
+	bottom: 685px;
+	right: 50px;
 }
 
 #snowPic {
@@ -295,6 +252,9 @@ input {
 
 #waterfallSection {
 	position: relative;
+	float: right;
+	bottom: 1030px;
+	left: 250px;
 }
 
 #waterfallPic {
@@ -326,7 +286,7 @@ footer {
 	clear: both;
 	border-top: 5px solid rgb(64,170,165);
 	color: white;
-	font-size: 10px;
+	font-size: 12px;
 }
 /* I can't get the footer to be fixed Once I put the position as fixed, it disappears from the page.
 reset.css messged up the footer styles */ 
