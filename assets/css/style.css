@@ -1,4 +1,5 @@
 
+/* When scrolling, the header stays fixed, but the page content scrolls over the page */ 
 
  #header {
 	background-color: white;
@@ -9,6 +10,7 @@
 	position: fixed;
 	width: 100%;
 	border-bottom: 2px solid rgb(174,163,170);
+	font-family: Georgia;
  }
 
 .myName {
@@ -19,7 +21,11 @@
 	left: 100px;
 	padding-right: 20px;
 	padding-left: 20px;
-	top: 27px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	top: 38px;
+	font-family: Georgia;
+	font-size: 50px;
 }
 
 .headerlinks {
@@ -27,6 +33,7 @@
 	position: fixed;
 	left: 900px;
 	top: 40px;
+	font-size: 20px
 }
 
 ul {
@@ -46,8 +53,9 @@ li {
  }
 
  #connect {
- 	float: right;
-	width: 175px;
+ 	position: relative;
+ 	left: 850px;
+	width: 225px;
 	padding: 20px;
 	background: white;
 	margin-right: 200px;
@@ -63,6 +71,11 @@ li {
 
 .connentLinks {
 	padding-right: 15px;
+	margin: 10px;
+}
+
+#linksConnect {
+    margin-top: 20px;
 }
 
 hr {
@@ -102,14 +115,18 @@ h3 {
 p {
 	float: left;
 	position: relative;
-	top: 200px;
+	top: 250px;
 	clear: both;
 	padding-left: 20px;
+	font-family: Arial;
 }
 
 #contactHeader {
 	color: rgb(64,170,165);
-	border-bottom: 2px solid rgb(174,163,170)
+	border-bottom: 2px solid rgb(174,163,170);
+	font-size: 30px;
+	padding-bottom: 10px;
+
 }
 
 #contactForm {
@@ -120,42 +137,36 @@ p {
 	left: 60px;
 	padding-right: 10px;
 	padding-left: 20px;
+	padding-top: 10px;
 	height: 295px;
 	width: 750px;
 	color: rgb(167,149,143);
 	border: none;
-}
+	font-family: Georgia;
 
-#name {
-	
-}
 
-#email {
-	
-}
 
-#message {
-	
-}
-
-#submit_button {
+#submitButton {
 	position: relative;
 	top: 10px;
 	background-color: rgb(64,170,165);
-	font-family: 
+	font-family: Georgia
 	height: 125px;
 	width: 125px;
 	border: none;
 	color: white;
 }
 
+/* adding reset.css finaly got rid of all the stylings on the submit button */
+
 footer {
 	height: 25px;
 	text-align: center;
 	line-height: 25px;
 	background: rgb(102,102,102);
-	padding: 20px;
+	padding: 20px 20px 20px 20px;
 	clear: both;
 	border-top: 3px solid rgb(64,170,165);
 }
-/* I can't get the footer to be fixed' Once I put the position as fixed, it disappears from the page. */ 
+/* I can't get the footer to be fixed Once I put the position as fixed, it disappears from the page.
+reset.css messged up the footer styles */ 
