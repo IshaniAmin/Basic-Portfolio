@@ -145,10 +145,6 @@ p {
 	clear: both;
 }
 
-input {
-	 padding-bottom: 10px;
-}
-
 #contactForm {
 	background-color: white;
 	box-sizing: border-box;
@@ -174,6 +170,7 @@ input {
 	font-size: 13px;
 	padding-top: 5px;
 	padding-right: 10px;
+	padding-bottom: 10px;
 }
 
 #submitButton {
@@ -298,5 +295,4 @@ footer {
 	color: white;
 	font-size: 12px;
 }
-/* I can't get the footer to be fixed Once I put the position as fixed, it disappears from the page.
-reset.css messged up the footer styles */ 
+/* I can't get the footer to be fixed Once I put the position as fixed, it disappears from the page. */ 
